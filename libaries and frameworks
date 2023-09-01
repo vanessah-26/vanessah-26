@@ -1,0 +1,18 @@
+import numpy as np
+import pandas as pd
+import cv2
+import seaborn as sns
+import matplotlib.pyplot as plt
+from keras.utils.np_utils import to_categorical
+from sklearn.model_selection import train_test_split
+
+from numpy import expand_dims
+from tensorflow.keras.preprocessing.image import load_img
+from tensorflow.keras.preprocessing.image import img_to_array
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+
+# Our data files are very large, so they're stored on Google Cloud
+# We can use a command like this to upload it into Google Colab's file system
+!wget -q --show-progress "https://storage.googleapis.com/inspirit-ai-data-bucket-1/Data/AI%20Innovators/ML%20Projects/CV%20Pre-Processing%20-%20Flower%20Dataset/flower_images.npy"
+!wget -q --show-progress "https://storage.googleapis.com/inspirit-ai-data-bucket-1/Data/AI%20Innovators/ML%20Projects/CV%20Pre-Processing%20-%20Flower%20Dataset/labels.npy"
