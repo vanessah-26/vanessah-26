@@ -1,5 +1,4 @@
 - 👋 Hi, I’m @vanessah-26
-- I’m interested in ML
 
 <!---
 vanessah-26/vanessah-26 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
